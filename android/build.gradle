@@ -22,11 +22,11 @@ def safeExtGet(prop, fallback) {
 }
 
 android {
-    compileSdkVersion safeExtGet('Datatrans_compileSdkVersion', 29)
-    buildToolsVersion safeExtGet('Datatrans_buildToolsVersion', '29.0.2')
+    compileSdkVersion safeExtGet('Datatrans_compileSdkVersion', 34)
+    buildToolsVersion safeExtGet('Datatrans_buildToolsVersion', '34.0.0')
     defaultConfig {
-        minSdkVersion safeExtGet('Datatrans_minSdkVersion', 21)
-        targetSdkVersion safeExtGet('Datatrans_targetSdkVersion', 29)
+        minSdkVersion safeExtGet('Datatrans_minSdkVersion', 25)
+        targetSdkVersion safeExtGet('Datatrans_targetSdkVersion', 34)
         versionCode 1
         versionName "1.0"
 
